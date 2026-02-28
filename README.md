@@ -1,3 +1,5 @@
+
+
 # 🏥 Explainable Vision Transformer for Medical Image Diagnosis
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -96,7 +98,7 @@ This research project addresses a **critical gap in medical AI**: while deep lea
 ## 📊 Visual Results
 
 ### Training Curves Comparison
-![Training Curves](results/visualizations/training_curves_comparison.png)
+![Training Curves](training_curves_comparison.png)
 *Training and validation curves for both CNN and ViT models over 15 epochs*
 
 ### Insertion-Deletion Curves
@@ -106,13 +108,13 @@ This research project addresses a **critical gap in medical AI**: while deep lea
 <td width="50%">
 
 **CNN Insertion-Deletion**
-![CNN Curves](results/visualizations/cnn_insertion_deletion_curves.png)
+![CNN Curves](cnn_insertion_deletion_curves.png)
 
 </td>
 <td width="50%">
 
 **ViT Insertion-Deletion**
-![ViT Curves](results/visualizations/vit_insertion_deletion_curves.png)
+![ViT Curves](vit_insertion_deletion_curves.png)
 
 </td>
 </tr>
@@ -121,7 +123,7 @@ This research project addresses a **critical gap in medical AI**: while deep lea
 *Insertion curves show model confidence as important pixels are progressively revealed. Deletion curves show confidence as important pixels are removed.*
 
 ### Failure Case Analysis
-![Failure Case](results/visualizations/failure_case_4.png)
+![Failure Case](failure_case_4.png)
 *Example case where model prediction is correct but explanation focuses on wrong regions - demonstrating the importance of explainability validation beyond accuracy*
 
 ---
@@ -169,6 +171,10 @@ explainable-vit-medical/
 │   ├── explainability.py
 │   └── metrics.py
 │
+├── training_curves_comparison.png         # Place images here (root)
+├── cnn_insertion_deletion_curves.png
+├── vit_insertion_deletion_curves.png
+├── failure_case_4.png
 ├── requirements.txt
 ├── README.md
 └── LICENSE
@@ -382,3 +388,6 @@ Contributions, issues, and feature requests are welcome!
 ---
 
 **Note**: Pre-trained models and complete experimental results are available in the [releases](https://github.com/junaidkhan/explainable-vit-medical/releases) section.
+
+---
+
