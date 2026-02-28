@@ -385,9 +385,3 @@ Contributions, issues, and feature requests are welcome!
   <a href="#-methodology">Methodology</a>
 </p>
 
----
-
-**Note**: Pre-trained models and complete experimental results are available in the [releases](https://github.com/junaidkhan/explainable-vit-medical/releases) section.
-
----
-
